@@ -20,6 +20,9 @@ RUN pnpm install --frozen-lockfile
 # Copy source
 COPY . .
 
+# Generate Prisma client
+RUN pnpm --filter @sow-workbench/db generate
+
 # Build everything
 RUN pnpm --filter @sow-workbench/db build
 RUN pnpm --filter @sow-workbench/analytics build
