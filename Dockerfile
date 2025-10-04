@@ -6,6 +6,9 @@ WORKDIR /app
 # Install pm2 globally for process management
 RUN npm install -g pm2 pnpm
 
+# Install build dependencies for native modules (sqlite3)
+RUN apk add --no-cache python3 make g++
+
 # Copy package files
 COPY package.json pnpm-lock.yaml ./
 COPY pnpm-workspace.yaml ./
