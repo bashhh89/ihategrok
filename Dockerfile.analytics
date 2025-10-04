@@ -1,0 +1,23 @@
+# Dockerfile for Analytics
+FROM node:18-alpine
+
+WORKDIR /app
+
+# Copy package files
+COPY package.json pnpm-lock.yaml ./
+COPY packages/analytics/package.json ./packages/analytics/
+
+# Install pnpm and dependencies
+RUN npm install -g pnpm && pnpm install --frozen-lockfile
+
+# Copy source
+COPY . .
+
+# Build the analytics package
+RUN pnpm --filter analytics build
+
+# Expose port (assuming 3001 or something, check code)
+EXPOSE 3010
+
+# Start the app
+CMD ["pnpm", "--filter", "analytics", "start"]

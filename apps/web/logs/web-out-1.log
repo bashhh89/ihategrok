@@ -1,0 +1,20 @@
+2025-09-30T05:52:58: 
+2025-09-30T05:52:58: > @sow-workbench/web@1.0.0 start /root/thecustom/apps/web
+2025-09-30T05:52:58: > next start -p 3009
+2025-09-30T05:52:58: 
+2025-09-30T05:52:58:   ▲ Next.js 14.2.33
+2025-09-30T05:52:58:   - Local:        http://localhost:3009
+2025-09-30T05:52:58: 
+2025-09-30T05:52:58:  ✓ Starting...
+2025-09-30T05:52:58:  ✓ Ready in 337ms
+2025-09-30T06:00:32:  ELIFECYCLE  Command failed with exit code 137.
+2025-09-30T06:00:36: 
+2025-09-30T06:00:36: > @sow-workbench/web@1.0.0 start /root/thecustom/apps/web
+2025-09-30T06:00:36: > next start -p 3009
+2025-09-30T06:00:36: 
+2025-09-30T06:00:37:   ▲ Next.js 14.2.33
+2025-09-30T06:00:37:   - Local:        http://localhost:3009
+2025-09-30T06:00:37: 
+2025-09-30T06:00:37:  ✓ Starting...
+2025-09-30T06:00:37:  ✓ Ready in 295ms
+2025-09-30T06:00:50:  ELIFECYCLE  Command failed.

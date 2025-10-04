@@ -1,0 +1,1207 @@
+2025-09-30T05:52:58: 
+2025-09-30T05:52:58: > @sow-workbench/web@1.0.0 start /root/thecustom/apps/web
+2025-09-30T05:52:58: > next start -p 3009
+2025-09-30T05:52:58: 
+2025-09-30T05:52:58:   ▲ Next.js 14.2.33
+2025-09-30T05:52:58:   - Local:        http://localhost:3009
+2025-09-30T05:52:58: 
+2025-09-30T05:52:58:  ✓ Starting...
+2025-09-30T05:52:58:  ✓ Ready in 337ms
+2025-09-30T05:53:13:  ⚠ For production Image Optimization with Next.js, the optional 'sharp' package is strongly recommended. Run 'npm i sharp', and Next.js will use it automatically for Image Optimization.
+2025-09-30T05:53:13: Read more: https://nextjs.org/docs/messages/sharp-missing-in-production
+2025-09-30T05:53:14: (node:128122) [DEP0060] DeprecationWarning: The `util._extend` API is deprecated. Please use Object.assign() instead.
+2025-09-30T05:53:14: (Use `node --trace-deprecation ...` to show where the warning was created)
+2025-09-30T05:53:14: Failed to proxy http://localhost:5578/api/folders AggregateError [ECONNREFUSED]: 
+2025-09-30T05:53:14:     at internalConnectMultiple (node:net:1134:18)
+2025-09-30T05:53:14:     at afterConnectMultiple (node:net:1715:7)
+2025-09-30T05:53:14:     at TCPConnectWrap.callbackTrampoline (node:internal/async_hooks:130:17) {
+2025-09-30T05:53:14:   code: 'ECONNREFUSED',
+2025-09-30T05:53:14:   [errors]: [
+2025-09-30T05:53:14:     Error: connect ECONNREFUSED ::1:5578
+2025-09-30T05:53:14:         at createConnectionError (node:net:1678:14)
+2025-09-30T05:53:14:         at afterConnectMultiple (node:net:1708:16)
+2025-09-30T05:53:14:         at TCPConnectWrap.callbackTrampoline (node:internal/async_hooks:130:17) {
+2025-09-30T05:53:14:       errno: -111,
+2025-09-30T05:53:14:       code: 'ECONNREFUSED',
+2025-09-30T05:53:14:       syscall: 'connect',
+2025-09-30T05:53:14:       address: '::1',
+2025-09-30T05:53:14:       port: 5578
+2025-09-30T05:53:14:     },
+2025-09-30T05:53:14:     Error: connect ECONNREFUSED 127.0.0.1:5578
+2025-09-30T05:53:14:         at createConnectionError (node:net:1678:14)
+2025-09-30T05:53:14:         at afterConnectMultiple (node:net:1708:16)
+2025-09-30T05:53:14:         at TCPConnectWrap.callbackTrampoline (node:internal/async_hooks:130:17) {
+2025-09-30T05:53:14:       errno: -111,
+2025-09-30T05:53:14:       code: 'ECONNREFUSED',
+2025-09-30T05:53:14:       syscall: 'connect',
+2025-09-30T05:53:14:       address: '127.0.0.1',
+2025-09-30T05:53:14:       port: 5578
+2025-09-30T05:53:14:     }
+2025-09-30T05:53:14:   ]
+2025-09-30T05:53:14: }
+2025-09-30T05:53:14: AggregateError [ECONNREFUSED]: 
+2025-09-30T05:53:14:     at internalConnectMultiple (node:net:1134:18)
+2025-09-30T05:53:14:     at afterConnectMultiple (node:net:1715:7)
+2025-09-30T05:53:14:     at TCPConnectWrap.callbackTrampoline (node:internal/async_hooks:130:17) {
+2025-09-30T05:53:14:   code: 'ECONNREFUSED',
+2025-09-30T05:53:14:   [errors]: [
+2025-09-30T05:53:14:     Error: connect ECONNREFUSED ::1:5578
+2025-09-30T05:53:14:         at createConnectionError (node:net:1678:14)
+2025-09-30T05:53:14:         at afterConnectMultiple (node:net:1708:16)
+2025-09-30T05:53:14:         at TCPConnectWrap.callbackTrampoline (node:internal/async_hooks:130:17) {
+2025-09-30T05:53:14:       errno: -111,
+2025-09-30T05:53:14:       code: 'ECONNREFUSED',
+2025-09-30T05:53:14:       syscall: 'connect',
+2025-09-30T05:53:14:       address: '::1',
+2025-09-30T05:53:14:       port: 5578
+2025-09-30T05:53:14:     },
+2025-09-30T05:53:14:     Error: connect ECONNREFUSED 127.0.0.1:5578
+2025-09-30T05:53:14:         at createConnectionError (node:net:1678:14)
+2025-09-30T05:53:14:         at afterConnectMultiple (node:net:1708:16)
+2025-09-30T05:53:14:         at TCPConnectWrap.callbackTrampoline (node:internal/async_hooks:130:17) {
+2025-09-30T05:53:14:       errno: -111,
+2025-09-30T05:53:14:       code: 'ECONNREFUSED',
+2025-09-30T05:53:14:       syscall: 'connect',
+2025-09-30T05:53:14:       address: '127.0.0.1',
+2025-09-30T05:53:14:       port: 5578
+2025-09-30T05:53:14:     }
+2025-09-30T05:53:14:   ]
+2025-09-30T05:53:14: }
+2025-09-30T05:53:14: Failed to proxy http://localhost:5578/api/sows AggregateError [ECONNREFUSED]: 
+2025-09-30T05:53:14:     at internalConnectMultiple (node:net:1134:18)
+2025-09-30T05:53:14:     at afterConnectMultiple (node:net:1715:7)
+2025-09-30T05:53:14:     at TCPConnectWrap.callbackTrampoline (node:internal/async_hooks:130:17) {
+2025-09-30T05:53:14:   code: 'ECONNREFUSED',
+2025-09-30T05:53:14:   [errors]: [
+2025-09-30T05:53:14:     Error: connect ECONNREFUSED ::1:5578
+2025-09-30T05:53:14:         at createConnectionError (node:net:1678:14)
+2025-09-30T05:53:14:         at afterConnectMultiple (node:net:1708:16)
+2025-09-30T05:53:14:         at TCPConnectWrap.callbackTrampoline (node:internal/async_hooks:130:17) {
+2025-09-30T05:53:14:       errno: -111,
+2025-09-30T05:53:14:       code: 'ECONNREFUSED',
+2025-09-30T05:53:14:       syscall: 'connect',
+2025-09-30T05:53:14:       address: '::1',
+2025-09-30T05:53:14:       port: 5578
+2025-09-30T05:53:14:     },
+2025-09-30T05:53:14:     Error: connect ECONNREFUSED 127.0.0.1:5578
+2025-09-30T05:53:14:         at createConnectionError (node:net:1678:14)
+2025-09-30T05:53:14:         at afterConnectMultiple (node:net:1708:16)
+2025-09-30T05:53:14:         at TCPConnectWrap.callbackTrampoline (node:internal/async_hooks:130:17) {
+2025-09-30T05:53:14:       errno: -111,
+2025-09-30T05:53:14:       code: 'ECONNREFUSED',
+2025-09-30T05:53:14:       syscall: 'connect',
+2025-09-30T05:53:14:       address: '127.0.0.1',
+2025-09-30T05:53:14:       port: 5578
+2025-09-30T05:53:14:     }
+2025-09-30T05:53:14:   ]
+2025-09-30T05:53:14: }
+2025-09-30T05:53:14: AggregateError [ECONNREFUSED]: 
+2025-09-30T05:53:14:     at internalConnectMultiple (node:net:1134:18)
+2025-09-30T05:53:14:     at afterConnectMultiple (node:net:1715:7)
+2025-09-30T05:53:14:     at TCPConnectWrap.callbackTrampoline (node:internal/async_hooks:130:17) {
+2025-09-30T05:53:14:   code: 'ECONNREFUSED',
+2025-09-30T05:53:14:   [errors]: [
+2025-09-30T05:53:14:     Error: connect ECONNREFUSED ::1:5578
+2025-09-30T05:53:14:         at createConnectionError (node:net:1678:14)
+2025-09-30T05:53:14:         at afterConnectMultiple (node:net:1708:16)
+2025-09-30T05:53:14:         at TCPConnectWrap.callbackTrampoline (node:internal/async_hooks:130:17) {
+2025-09-30T05:53:14:       errno: -111,
+2025-09-30T05:53:14:       code: 'ECONNREFUSED',
+2025-09-30T05:53:14:       syscall: 'connect',
+2025-09-30T05:53:14:       address: '::1',
+2025-09-30T05:53:14:       port: 5578
+2025-09-30T05:53:14:     },
+2025-09-30T05:53:14:     Error: connect ECONNREFUSED 127.0.0.1:5578
+2025-09-30T05:53:14:         at createConnectionError (node:net:1678:14)
+2025-09-30T05:53:14:         at afterConnectMultiple (node:net:1708:16)
+2025-09-30T05:53:14:         at TCPConnectWrap.callbackTrampoline (node:internal/async_hooks:130:17) {
+2025-09-30T05:53:14:       errno: -111,
+2025-09-30T05:53:14:       code: 'ECONNREFUSED',
+2025-09-30T05:53:14:       syscall: 'connect',
+2025-09-30T05:53:14:       address: '127.0.0.1',
+2025-09-30T05:53:14:       port: 5578
+2025-09-30T05:53:14:     }
+2025-09-30T05:53:14:   ]
+2025-09-30T05:53:14: }
+2025-09-30T05:53:14:  ⨯ The requested resource isn't a valid image for /header-logo.png received null
+2025-09-30T05:53:18: Failed to proxy http://localhost:5578/api/sows AggregateError [ECONNREFUSED]: 
+2025-09-30T05:53:18:     at internalConnectMultiple (node:net:1134:18)
+2025-09-30T05:53:18:     at afterConnectMultiple (node:net:1715:7)
+2025-09-30T05:53:18:     at TCPConnectWrap.callbackTrampoline (node:internal/async_hooks:130:17) {
+2025-09-30T05:53:18:   code: 'ECONNREFUSED',
+2025-09-30T05:53:18:   [errors]: [
+2025-09-30T05:53:18:     Error: connect ECONNREFUSED ::1:5578
+2025-09-30T05:53:18:         at createConnectionError (node:net:1678:14)
+2025-09-30T05:53:18:         at afterConnectMultiple (node:net:1708:16)
+2025-09-30T05:53:18:         at TCPConnectWrap.callbackTrampoline (node:internal/async_hooks:130:17) {
+2025-09-30T05:53:18:       errno: -111,
+2025-09-30T05:53:18:       code: 'ECONNREFUSED',
+2025-09-30T05:53:18:       syscall: 'connect',
+2025-09-30T05:53:18:       address: '::1',
+2025-09-30T05:53:18:       port: 5578
+2025-09-30T05:53:18:     },
+2025-09-30T05:53:18:     Error: connect ECONNREFUSED 127.0.0.1:5578
+2025-09-30T05:53:18:         at createConnectionError (node:net:1678:14)
+2025-09-30T05:53:18:         at afterConnectMultiple (node:net:1708:16)
+2025-09-30T05:53:18:         at TCPConnectWrap.callbackTrampoline (node:internal/async_hooks:130:17) {
+2025-09-30T05:53:18:       errno: -111,
+2025-09-30T05:53:18:       code: 'ECONNREFUSED',
+2025-09-30T05:53:18:       syscall: 'connect',
+2025-09-30T05:53:18:       address: '127.0.0.1',
+2025-09-30T05:53:18:       port: 5578
+2025-09-30T05:53:18:     }
+2025-09-30T05:53:18:   ]
+2025-09-30T05:53:18: }
+2025-09-30T05:53:18: AggregateError [ECONNREFUSED]: 
+2025-09-30T05:53:18:     at internalConnectMultiple (node:net:1134:18)
+2025-09-30T05:53:18:     at afterConnectMultiple (node:net:1715:7)
+2025-09-30T05:53:18:     at TCPConnectWrap.callbackTrampoline (node:internal/async_hooks:130:17) {
+2025-09-30T05:53:18:   code: 'ECONNREFUSED',
+2025-09-30T05:53:18:   [errors]: [
+2025-09-30T05:53:18:     Error: connect ECONNREFUSED ::1:5578
+2025-09-30T05:53:18:         at createConnectionError (node:net:1678:14)
+2025-09-30T05:53:18:         at afterConnectMultiple (node:net:1708:16)
+2025-09-30T05:53:18:         at TCPConnectWrap.callbackTrampoline (node:internal/async_hooks:130:17) {
+2025-09-30T05:53:18:       errno: -111,
+2025-09-30T05:53:18:       code: 'ECONNREFUSED',
+2025-09-30T05:53:18:       syscall: 'connect',
+2025-09-30T05:53:18:       address: '::1',
+2025-09-30T05:53:18:       port: 5578
+2025-09-30T05:53:18:     },
+2025-09-30T05:53:18:     Error: connect ECONNREFUSED 127.0.0.1:5578
+2025-09-30T05:53:18:         at createConnectionError (node:net:1678:14)
+2025-09-30T05:53:18:         at afterConnectMultiple (node:net:1708:16)
+2025-09-30T05:53:18:         at TCPConnectWrap.callbackTrampoline (node:internal/async_hooks:130:17) {
+2025-09-30T05:53:18:       errno: -111,
+2025-09-30T05:53:18:       code: 'ECONNREFUSED',
+2025-09-30T05:53:18:       syscall: 'connect',
+2025-09-30T05:53:18:       address: '127.0.0.1',
+2025-09-30T05:53:18:       port: 5578
+2025-09-30T05:53:18:     }
+2025-09-30T05:53:18:   ]
+2025-09-30T05:53:18: }
+2025-09-30T05:54:15: Failed to proxy http://localhost:5578/api/sows AggregateError [ECONNREFUSED]: 
+2025-09-30T05:54:15:     at internalConnectMultiple (node:net:1134:18)
+2025-09-30T05:54:15:     at afterConnectMultiple (node:net:1715:7)
+2025-09-30T05:54:15:     at TCPConnectWrap.callbackTrampoline (node:internal/async_hooks:130:17) {
+2025-09-30T05:54:15:   code: 'ECONNREFUSED',
+2025-09-30T05:54:15:   [errors]: [
+2025-09-30T05:54:15:     Error: connect ECONNREFUSED ::1:5578
+2025-09-30T05:54:15:         at createConnectionError (node:net:1678:14)
+2025-09-30T05:54:15:         at afterConnectMultiple (node:net:1708:16)
+2025-09-30T05:54:15:         at TCPConnectWrap.callbackTrampoline (node:internal/async_hooks:130:17) {
+2025-09-30T05:54:15:       errno: -111,
+2025-09-30T05:54:15:       code: 'ECONNREFUSED',
+2025-09-30T05:54:15:       syscall: 'connect',
+2025-09-30T05:54:15:       address: '::1',
+2025-09-30T05:54:15:       port: 5578
+2025-09-30T05:54:15:     },
+2025-09-30T05:54:15:     Error: connect ECONNREFUSED 127.0.0.1:5578
+2025-09-30T05:54:15:         at createConnectionError (node:net:1678:14)
+2025-09-30T05:54:15:         at afterConnectMultiple (node:net:1708:16)
+2025-09-30T05:54:15:         at TCPConnectWrap.callbackTrampoline (node:internal/async_hooks:130:17) {
+2025-09-30T05:54:15:       errno: -111,
+2025-09-30T05:54:15:       code: 'ECONNREFUSED',
+2025-09-30T05:54:15:       syscall: 'connect',
+2025-09-30T05:54:15:       address: '127.0.0.1',
+2025-09-30T05:54:15:       port: 5578
+2025-09-30T05:54:15:     }
+2025-09-30T05:54:15:   ]
+2025-09-30T05:54:15: }
+2025-09-30T05:54:15: AggregateError [ECONNREFUSED]: 
+2025-09-30T05:54:15:     at internalConnectMultiple (node:net:1134:18)
+2025-09-30T05:54:15:     at afterConnectMultiple (node:net:1715:7)
+2025-09-30T05:54:15:     at TCPConnectWrap.callbackTrampoline (node:internal/async_hooks:130:17) {
+2025-09-30T05:54:15:   code: 'ECONNREFUSED',
+2025-09-30T05:54:15:   [errors]: [
+2025-09-30T05:54:15:     Error: connect ECONNREFUSED ::1:5578
+2025-09-30T05:54:15:         at createConnectionError (node:net:1678:14)
+2025-09-30T05:54:15:         at afterConnectMultiple (node:net:1708:16)
+2025-09-30T05:54:15:         at TCPConnectWrap.callbackTrampoline (node:internal/async_hooks:130:17) {
+2025-09-30T05:54:15:       errno: -111,
+2025-09-30T05:54:15:       code: 'ECONNREFUSED',
+2025-09-30T05:54:15:       syscall: 'connect',
+2025-09-30T05:54:15:       address: '::1',
+2025-09-30T05:54:15:       port: 5578
+2025-09-30T05:54:15:     },
+2025-09-30T05:54:15:     Error: connect ECONNREFUSED 127.0.0.1:5578
+2025-09-30T05:54:15:         at createConnectionError (node:net:1678:14)
+2025-09-30T05:54:15:         at afterConnectMultiple (node:net:1708:16)
+2025-09-30T05:54:15:         at TCPConnectWrap.callbackTrampoline (node:internal/async_hooks:130:17) {
+2025-09-30T05:54:15:       errno: -111,
+2025-09-30T05:54:15:       code: 'ECONNREFUSED',
+2025-09-30T05:54:15:       syscall: 'connect',
+2025-09-30T05:54:15:       address: '127.0.0.1',
+2025-09-30T05:54:15:       port: 5578
+2025-09-30T05:54:15:     }
+2025-09-30T05:54:15:   ]
+2025-09-30T05:54:15: }
+2025-09-30T05:54:32: Failed to proxy http://localhost:5578/api/folders AggregateError [ECONNREFUSED]: 
+2025-09-30T05:54:32:     at internalConnectMultiple (node:net:1134:18)
+2025-09-30T05:54:32:     at afterConnectMultiple (node:net:1715:7)
+2025-09-30T05:54:32:     at TCPConnectWrap.callbackTrampoline (node:internal/async_hooks:130:17) {
+2025-09-30T05:54:32:   code: 'ECONNREFUSED',
+2025-09-30T05:54:32:   [errors]: [
+2025-09-30T05:54:32:     Error: connect ECONNREFUSED ::1:5578
+2025-09-30T05:54:32:         at createConnectionError (node:net:1678:14)
+2025-09-30T05:54:32:         at afterConnectMultiple (node:net:1708:16)
+2025-09-30T05:54:32:         at TCPConnectWrap.callbackTrampoline (node:internal/async_hooks:130:17) {
+2025-09-30T05:54:32:       errno: -111,
+2025-09-30T05:54:32:       code: 'ECONNREFUSED',
+2025-09-30T05:54:32:       syscall: 'connect',
+2025-09-30T05:54:32:       address: '::1',
+2025-09-30T05:54:32:       port: 5578
+2025-09-30T05:54:32:     },
+2025-09-30T05:54:32:     Error: connect ECONNREFUSED 127.0.0.1:5578
+2025-09-30T05:54:32:         at createConnectionError (node:net:1678:14)
+2025-09-30T05:54:32:         at afterConnectMultiple (node:net:1708:16)
+2025-09-30T05:54:32:         at TCPConnectWrap.callbackTrampoline (node:internal/async_hooks:130:17) {
+2025-09-30T05:54:32:       errno: -111,
+2025-09-30T05:54:32:       code: 'ECONNREFUSED',
+2025-09-30T05:54:32:       syscall: 'connect',
+2025-09-30T05:54:32:       address: '127.0.0.1',
+2025-09-30T05:54:32:       port: 5578
+2025-09-30T05:54:32:     }
+2025-09-30T05:54:32:   ]
+2025-09-30T05:54:32: }
+2025-09-30T05:54:32: AggregateError [ECONNREFUSED]: 
+2025-09-30T05:54:32:     at internalConnectMultiple (node:net:1134:18)
+2025-09-30T05:54:32:     at afterConnectMultiple (node:net:1715:7)
+2025-09-30T05:54:32:     at TCPConnectWrap.callbackTrampoline (node:internal/async_hooks:130:17) {
+2025-09-30T05:54:32:   code: 'ECONNREFUSED',
+2025-09-30T05:54:32:   [errors]: [
+2025-09-30T05:54:32:     Error: connect ECONNREFUSED ::1:5578
+2025-09-30T05:54:32:         at createConnectionError (node:net:1678:14)
+2025-09-30T05:54:32:         at afterConnectMultiple (node:net:1708:16)
+2025-09-30T05:54:32:         at TCPConnectWrap.callbackTrampoline (node:internal/async_hooks:130:17) {
+2025-09-30T05:54:32:       errno: -111,
+2025-09-30T05:54:32:       code: 'ECONNREFUSED',
+2025-09-30T05:54:32:       syscall: 'connect',
+2025-09-30T05:54:32:       address: '::1',
+2025-09-30T05:54:32:       port: 5578
+2025-09-30T05:54:32:     },
+2025-09-30T05:54:32:     Error: connect ECONNREFUSED 127.0.0.1:5578
+2025-09-30T05:54:32:         at createConnectionError (node:net:1678:14)
+2025-09-30T05:54:32:         at afterConnectMultiple (node:net:1708:16)
+2025-09-30T05:54:32:         at TCPConnectWrap.callbackTrampoline (node:internal/async_hooks:130:17) {
+2025-09-30T05:54:32:       errno: -111,
+2025-09-30T05:54:32:       code: 'ECONNREFUSED',
+2025-09-30T05:54:32:       syscall: 'connect',
+2025-09-30T05:54:32:       address: '127.0.0.1',
+2025-09-30T05:54:32:       port: 5578
+2025-09-30T05:54:32:     }
+2025-09-30T05:54:32:   ]
+2025-09-30T05:54:32: }
+2025-09-30T05:54:32:  ⨯ The requested resource isn't a valid image for /header-logo.png received null
+2025-09-30T05:54:32: Failed to proxy http://localhost:5578/api/sows AggregateError [ECONNREFUSED]: 
+2025-09-30T05:54:32:     at internalConnectMultiple (node:net:1134:18)
+2025-09-30T05:54:32:     at afterConnectMultiple (node:net:1715:7)
+2025-09-30T05:54:32:     at TCPConnectWrap.callbackTrampoline (node:internal/async_hooks:130:17) {
+2025-09-30T05:54:32:   code: 'ECONNREFUSED',
+2025-09-30T05:54:32:   [errors]: [
+2025-09-30T05:54:32:     Error: connect ECONNREFUSED ::1:5578
+2025-09-30T05:54:32:         at createConnectionError (node:net:1678:14)
+2025-09-30T05:54:32:         at afterConnectMultiple (node:net:1708:16)
+2025-09-30T05:54:32:         at TCPConnectWrap.callbackTrampoline (node:internal/async_hooks:130:17) {
+2025-09-30T05:54:32:       errno: -111,
+2025-09-30T05:54:32:       code: 'ECONNREFUSED',
+2025-09-30T05:54:32:       syscall: 'connect',
+2025-09-30T05:54:32:       address: '::1',
+2025-09-30T05:54:32:       port: 5578
+2025-09-30T05:54:32:     },
+2025-09-30T05:54:32:     Error: connect ECONNREFUSED 127.0.0.1:5578
+2025-09-30T05:54:32:         at createConnectionError (node:net:1678:14)
+2025-09-30T05:54:32:         at afterConnectMultiple (node:net:1708:16)
+2025-09-30T05:54:32:         at TCPConnectWrap.callbackTrampoline (node:internal/async_hooks:130:17) {
+2025-09-30T05:54:32:       errno: -111,
+2025-09-30T05:54:32:       code: 'ECONNREFUSED',
+2025-09-30T05:54:32:       syscall: 'connect',
+2025-09-30T05:54:32:       address: '127.0.0.1',
+2025-09-30T05:54:32:       port: 5578
+2025-09-30T05:54:32:     }
+2025-09-30T05:54:32:   ]
+2025-09-30T05:54:32: }
+2025-09-30T05:54:32: AggregateError [ECONNREFUSED]: 
+2025-09-30T05:54:32:     at internalConnectMultiple (node:net:1134:18)
+2025-09-30T05:54:32:     at afterConnectMultiple (node:net:1715:7)
+2025-09-30T05:54:32:     at TCPConnectWrap.callbackTrampoline (node:internal/async_hooks:130:17) {
+2025-09-30T05:54:32:   code: 'ECONNREFUSED',
+2025-09-30T05:54:32:   [errors]: [
+2025-09-30T05:54:32:     Error: connect ECONNREFUSED ::1:5578
+2025-09-30T05:54:32:         at createConnectionError (node:net:1678:14)
+2025-09-30T05:54:32:         at afterConnectMultiple (node:net:1708:16)
+2025-09-30T05:54:32:         at TCPConnectWrap.callbackTrampoline (node:internal/async_hooks:130:17) {
+2025-09-30T05:54:32:       errno: -111,
+2025-09-30T05:54:32:       code: 'ECONNREFUSED',
+2025-09-30T05:54:32:       syscall: 'connect',
+2025-09-30T05:54:32:       address: '::1',
+2025-09-30T05:54:32:       port: 5578
+2025-09-30T05:54:32:     },
+2025-09-30T05:54:32:     Error: connect ECONNREFUSED 127.0.0.1:5578
+2025-09-30T05:54:32:         at createConnectionError (node:net:1678:14)
+2025-09-30T05:54:32:         at afterConnectMultiple (node:net:1708:16)
+2025-09-30T05:54:32:         at TCPConnectWrap.callbackTrampoline (node:internal/async_hooks:130:17) {
+2025-09-30T05:54:32:       errno: -111,
+2025-09-30T05:54:32:       code: 'ECONNREFUSED',
+2025-09-30T05:54:32:       syscall: 'connect',
+2025-09-30T05:54:32:       address: '127.0.0.1',
+2025-09-30T05:54:32:       port: 5578
+2025-09-30T05:54:32:     }
+2025-09-30T05:54:32:   ]
+2025-09-30T05:54:32: }
+2025-09-30T05:55:59: Failed to proxy http://localhost:5578/api/folders AggregateError [ECONNREFUSED]: 
+2025-09-30T05:55:59:     at internalConnectMultiple (node:net:1134:18)
+2025-09-30T05:55:59:     at afterConnectMultiple (node:net:1715:7)
+2025-09-30T05:55:59:     at TCPConnectWrap.callbackTrampoline (node:internal/async_hooks:130:17) {
+2025-09-30T05:55:59:   code: 'ECONNREFUSED',
+2025-09-30T05:55:59:   [errors]: [
+2025-09-30T05:55:59:     Error: connect ECONNREFUSED ::1:5578
+2025-09-30T05:55:59:         at createConnectionError (node:net:1678:14)
+2025-09-30T05:55:59:         at afterConnectMultiple (node:net:1708:16)
+2025-09-30T05:55:59:         at TCPConnectWrap.callbackTrampoline (node:internal/async_hooks:130:17) {
+2025-09-30T05:55:59:       errno: -111,
+2025-09-30T05:55:59:       code: 'ECONNREFUSED',
+2025-09-30T05:55:59:       syscall: 'connect',
+2025-09-30T05:55:59:       address: '::1',
+2025-09-30T05:55:59:       port: 5578
+2025-09-30T05:55:59:     },
+2025-09-30T05:55:59:     Error: connect ECONNREFUSED 127.0.0.1:5578
+2025-09-30T05:55:59:         at createConnectionError (node:net:1678:14)
+2025-09-30T05:55:59:         at afterConnectMultiple (node:net:1708:16)
+2025-09-30T05:55:59:         at TCPConnectWrap.callbackTrampoline (node:internal/async_hooks:130:17) {
+2025-09-30T05:55:59:       errno: -111,
+2025-09-30T05:55:59:       code: 'ECONNREFUSED',
+2025-09-30T05:55:59:       syscall: 'connect',
+2025-09-30T05:55:59:       address: '127.0.0.1',
+2025-09-30T05:55:59:       port: 5578
+2025-09-30T05:55:59:     }
+2025-09-30T05:55:59:   ]
+2025-09-30T05:55:59: }
+2025-09-30T05:55:59: AggregateError [ECONNREFUSED]: 
+2025-09-30T05:55:59:     at internalConnectMultiple (node:net:1134:18)
+2025-09-30T05:55:59:     at afterConnectMultiple (node:net:1715:7)
+2025-09-30T05:55:59:     at TCPConnectWrap.callbackTrampoline (node:internal/async_hooks:130:17) {
+2025-09-30T05:55:59:   code: 'ECONNREFUSED',
+2025-09-30T05:55:59:   [errors]: [
+2025-09-30T05:55:59:     Error: connect ECONNREFUSED ::1:5578
+2025-09-30T05:55:59:         at createConnectionError (node:net:1678:14)
+2025-09-30T05:55:59:         at afterConnectMultiple (node:net:1708:16)
+2025-09-30T05:55:59:         at TCPConnectWrap.callbackTrampoline (node:internal/async_hooks:130:17) {
+2025-09-30T05:55:59:       errno: -111,
+2025-09-30T05:55:59:       code: 'ECONNREFUSED',
+2025-09-30T05:55:59:       syscall: 'connect',
+2025-09-30T05:55:59:       address: '::1',
+2025-09-30T05:55:59:       port: 5578
+2025-09-30T05:55:59:     },
+2025-09-30T05:55:59:     Error: connect ECONNREFUSED 127.0.0.1:5578
+2025-09-30T05:55:59:         at createConnectionError (node:net:1678:14)
+2025-09-30T05:55:59:         at afterConnectMultiple (node:net:1708:16)
+2025-09-30T05:55:59:         at TCPConnectWrap.callbackTrampoline (node:internal/async_hooks:130:17) {
+2025-09-30T05:55:59:       errno: -111,
+2025-09-30T05:55:59:       code: 'ECONNREFUSED',
+2025-09-30T05:55:59:       syscall: 'connect',
+2025-09-30T05:55:59:       address: '127.0.0.1',
+2025-09-30T05:55:59:       port: 5578
+2025-09-30T05:55:59:     }
+2025-09-30T05:55:59:   ]
+2025-09-30T05:55:59: }
+2025-09-30T05:55:59: Failed to proxy http://localhost:5578/api/sows AggregateError [ECONNREFUSED]: 
+2025-09-30T05:55:59:     at internalConnectMultiple (node:net:1134:18)
+2025-09-30T05:55:59:     at afterConnectMultiple (node:net:1715:7)
+2025-09-30T05:55:59:     at TCPConnectWrap.callbackTrampoline (node:internal/async_hooks:130:17) {
+2025-09-30T05:55:59:   code: 'ECONNREFUSED',
+2025-09-30T05:55:59:   [errors]: [
+2025-09-30T05:55:59:     Error: connect ECONNREFUSED ::1:5578
+2025-09-30T05:55:59:         at createConnectionError (node:net:1678:14)
+2025-09-30T05:55:59:         at afterConnectMultiple (node:net:1708:16)
+2025-09-30T05:55:59:         at TCPConnectWrap.callbackTrampoline (node:internal/async_hooks:130:17) {
+2025-09-30T05:55:59:       errno: -111,
+2025-09-30T05:55:59:       code: 'ECONNREFUSED',
+2025-09-30T05:55:59:       syscall: 'connect',
+2025-09-30T05:55:59:       address: '::1',
+2025-09-30T05:55:59:       port: 5578
+2025-09-30T05:55:59:     },
+2025-09-30T05:55:59:     Error: connect ECONNREFUSED 127.0.0.1:5578
+2025-09-30T05:55:59:         at createConnectionError (node:net:1678:14)
+2025-09-30T05:55:59:         at afterConnectMultiple (node:net:1708:16)
+2025-09-30T05:55:59:         at TCPConnectWrap.callbackTrampoline (node:internal/async_hooks:130:17) {
+2025-09-30T05:55:59:       errno: -111,
+2025-09-30T05:55:59:       code: 'ECONNREFUSED',
+2025-09-30T05:55:59:       syscall: 'connect',
+2025-09-30T05:55:59:       address: '127.0.0.1',
+2025-09-30T05:55:59:       port: 5578
+2025-09-30T05:55:59:     }
+2025-09-30T05:55:59:   ]
+2025-09-30T05:55:59: }
+2025-09-30T05:55:59: AggregateError [ECONNREFUSED]: 
+2025-09-30T05:55:59:     at internalConnectMultiple (node:net:1134:18)
+2025-09-30T05:55:59:     at afterConnectMultiple (node:net:1715:7)
+2025-09-30T05:55:59:     at TCPConnectWrap.callbackTrampoline (node:internal/async_hooks:130:17) {
+2025-09-30T05:55:59:   code: 'ECONNREFUSED',
+2025-09-30T05:55:59:   [errors]: [
+2025-09-30T05:55:59:     Error: connect ECONNREFUSED ::1:5578
+2025-09-30T05:55:59:         at createConnectionError (node:net:1678:14)
+2025-09-30T05:55:59:         at afterConnectMultiple (node:net:1708:16)
+2025-09-30T05:55:59:         at TCPConnectWrap.callbackTrampoline (node:internal/async_hooks:130:17) {
+2025-09-30T05:55:59:       errno: -111,
+2025-09-30T05:55:59:       code: 'ECONNREFUSED',
+2025-09-30T05:55:59:       syscall: 'connect',
+2025-09-30T05:55:59:       address: '::1',
+2025-09-30T05:55:59:       port: 5578
+2025-09-30T05:55:59:     },
+2025-09-30T05:55:59:     Error: connect ECONNREFUSED 127.0.0.1:5578
+2025-09-30T05:55:59:         at createConnectionError (node:net:1678:14)
+2025-09-30T05:55:59:         at afterConnectMultiple (node:net:1708:16)
+2025-09-30T05:55:59:         at TCPConnectWrap.callbackTrampoline (node:internal/async_hooks:130:17) {
+2025-09-30T05:55:59:       errno: -111,
+2025-09-30T05:55:59:       code: 'ECONNREFUSED',
+2025-09-30T05:55:59:       syscall: 'connect',
+2025-09-30T05:55:59:       address: '127.0.0.1',
+2025-09-30T05:55:59:       port: 5578
+2025-09-30T05:55:59:     }
+2025-09-30T05:55:59:   ]
+2025-09-30T05:55:59: }
+2025-09-30T05:55:59:  ⨯ The requested resource isn't a valid image for /header-logo.png received null
+2025-09-30T05:56:02: Failed to proxy http://localhost:5578/api/folders AggregateError [ECONNREFUSED]: 
+2025-09-30T05:56:02:     at internalConnectMultiple (node:net:1134:18)
+2025-09-30T05:56:02:     at afterConnectMultiple (node:net:1715:7)
+2025-09-30T05:56:02:     at TCPConnectWrap.callbackTrampoline (node:internal/async_hooks:130:17) {
+2025-09-30T05:56:02:   code: 'ECONNREFUSED',
+2025-09-30T05:56:02:   [errors]: [
+2025-09-30T05:56:02:     Error: connect ECONNREFUSED ::1:5578
+2025-09-30T05:56:02:         at createConnectionError (node:net:1678:14)
+2025-09-30T05:56:02:         at afterConnectMultiple (node:net:1708:16)
+2025-09-30T05:56:02:         at TCPConnectWrap.callbackTrampoline (node:internal/async_hooks:130:17) {
+2025-09-30T05:56:02:       errno: -111,
+2025-09-30T05:56:02:       code: 'ECONNREFUSED',
+2025-09-30T05:56:02:       syscall: 'connect',
+2025-09-30T05:56:02:       address: '::1',
+2025-09-30T05:56:02:       port: 5578
+2025-09-30T05:56:02:     },
+2025-09-30T05:56:02:     Error: connect ECONNREFUSED 127.0.0.1:5578
+2025-09-30T05:56:02:         at createConnectionError (node:net:1678:14)
+2025-09-30T05:56:02:         at afterConnectMultiple (node:net:1708:16)
+2025-09-30T05:56:02:         at TCPConnectWrap.callbackTrampoline (node:internal/async_hooks:130:17) {
+2025-09-30T05:56:02:       errno: -111,
+2025-09-30T05:56:02:       code: 'ECONNREFUSED',
+2025-09-30T05:56:02:       syscall: 'connect',
+2025-09-30T05:56:02:       address: '127.0.0.1',
+2025-09-30T05:56:02:       port: 5578
+2025-09-30T05:56:02:     }
+2025-09-30T05:56:02:   ]
+2025-09-30T05:56:02: }
+2025-09-30T05:56:02: AggregateError [ECONNREFUSED]: 
+2025-09-30T05:56:02:     at internalConnectMultiple (node:net:1134:18)
+2025-09-30T05:56:02:     at afterConnectMultiple (node:net:1715:7)
+2025-09-30T05:56:02:     at TCPConnectWrap.callbackTrampoline (node:internal/async_hooks:130:17) {
+2025-09-30T05:56:02:   code: 'ECONNREFUSED',
+2025-09-30T05:56:02:   [errors]: [
+2025-09-30T05:56:02:     Error: connect ECONNREFUSED ::1:5578
+2025-09-30T05:56:02:         at createConnectionError (node:net:1678:14)
+2025-09-30T05:56:02:         at afterConnectMultiple (node:net:1708:16)
+2025-09-30T05:56:02:         at TCPConnectWrap.callbackTrampoline (node:internal/async_hooks:130:17) {
+2025-09-30T05:56:02:       errno: -111,
+2025-09-30T05:56:02:       code: 'ECONNREFUSED',
+2025-09-30T05:56:02:       syscall: 'connect',
+2025-09-30T05:56:02:       address: '::1',
+2025-09-30T05:56:02:       port: 5578
+2025-09-30T05:56:02:     },
+2025-09-30T05:56:02:     Error: connect ECONNREFUSED 127.0.0.1:5578
+2025-09-30T05:56:02:         at createConnectionError (node:net:1678:14)
+2025-09-30T05:56:02:         at afterConnectMultiple (node:net:1708:16)
+2025-09-30T05:56:02:         at TCPConnectWrap.callbackTrampoline (node:internal/async_hooks:130:17) {
+2025-09-30T05:56:02:       errno: -111,
+2025-09-30T05:56:02:       code: 'ECONNREFUSED',
+2025-09-30T05:56:02:       syscall: 'connect',
+2025-09-30T05:56:02:       address: '127.0.0.1',
+2025-09-30T05:56:02:       port: 5578
+2025-09-30T05:56:02:     }
+2025-09-30T05:56:02:   ]
+2025-09-30T05:56:02: }
+2025-09-30T05:56:02: Failed to proxy http://localhost:5578/api/sows AggregateError [ECONNREFUSED]: 
+2025-09-30T05:56:02:     at internalConnectMultiple (node:net:1134:18)
+2025-09-30T05:56:02:     at afterConnectMultiple (node:net:1715:7)
+2025-09-30T05:56:02:     at TCPConnectWrap.callbackTrampoline (node:internal/async_hooks:130:17) {
+2025-09-30T05:56:02:   code: 'ECONNREFUSED',
+2025-09-30T05:56:02:   [errors]: [
+2025-09-30T05:56:02:     Error: connect ECONNREFUSED ::1:5578
+2025-09-30T05:56:02:         at createConnectionError (node:net:1678:14)
+2025-09-30T05:56:02:         at afterConnectMultiple (node:net:1708:16)
+2025-09-30T05:56:02:         at TCPConnectWrap.callbackTrampoline (node:internal/async_hooks:130:17) {
+2025-09-30T05:56:02:       errno: -111,
+2025-09-30T05:56:02:       code: 'ECONNREFUSED',
+2025-09-30T05:56:02:       syscall: 'connect',
+2025-09-30T05:56:02:       address: '::1',
+2025-09-30T05:56:02:       port: 5578
+2025-09-30T05:56:02:     },
+2025-09-30T05:56:02:     Error: connect ECONNREFUSED 127.0.0.1:5578
+2025-09-30T05:56:02:         at createConnectionError (node:net:1678:14)
+2025-09-30T05:56:02:         at afterConnectMultiple (node:net:1708:16)
+2025-09-30T05:56:02:         at TCPConnectWrap.callbackTrampoline (node:internal/async_hooks:130:17) {
+2025-09-30T05:56:02:       errno: -111,
+2025-09-30T05:56:02:       code: 'ECONNREFUSED',
+2025-09-30T05:56:02:       syscall: 'connect',
+2025-09-30T05:56:02:       address: '127.0.0.1',
+2025-09-30T05:56:02:       port: 5578
+2025-09-30T05:56:02:     }
+2025-09-30T05:56:02:   ]
+2025-09-30T05:56:02: }
+2025-09-30T05:56:02: AggregateError [ECONNREFUSED]: 
+2025-09-30T05:56:02:     at internalConnectMultiple (node:net:1134:18)
+2025-09-30T05:56:02:     at afterConnectMultiple (node:net:1715:7)
+2025-09-30T05:56:02:     at TCPConnectWrap.callbackTrampoline (node:internal/async_hooks:130:17) {
+2025-09-30T05:56:02:   code: 'ECONNREFUSED',
+2025-09-30T05:56:02:   [errors]: [
+2025-09-30T05:56:02:     Error: connect ECONNREFUSED ::1:5578
+2025-09-30T05:56:02:         at createConnectionError (node:net:1678:14)
+2025-09-30T05:56:02:         at afterConnectMultiple (node:net:1708:16)
+2025-09-30T05:56:02:         at TCPConnectWrap.callbackTrampoline (node:internal/async_hooks:130:17) {
+2025-09-30T05:56:02:       errno: -111,
+2025-09-30T05:56:02:       code: 'ECONNREFUSED',
+2025-09-30T05:56:02:       syscall: 'connect',
+2025-09-30T05:56:02:       address: '::1',
+2025-09-30T05:56:02:       port: 5578
+2025-09-30T05:56:02:     },
+2025-09-30T05:56:02:     Error: connect ECONNREFUSED 127.0.0.1:5578
+2025-09-30T05:56:02:         at createConnectionError (node:net:1678:14)
+2025-09-30T05:56:02:         at afterConnectMultiple (node:net:1708:16)
+2025-09-30T05:56:02:         at TCPConnectWrap.callbackTrampoline (node:internal/async_hooks:130:17) {
+2025-09-30T05:56:02:       errno: -111,
+2025-09-30T05:56:02:       code: 'ECONNREFUSED',
+2025-09-30T05:56:02:       syscall: 'connect',
+2025-09-30T05:56:02:       address: '127.0.0.1',
+2025-09-30T05:56:02:       port: 5578
+2025-09-30T05:56:02:     }
+2025-09-30T05:56:02:   ]
+2025-09-30T05:56:02: }
+2025-09-30T05:56:02:  ⨯ The requested resource isn't a valid image for /header-logo.png received null
+2025-09-30T05:56:23: Failed to proxy http://localhost:5578/api/sows AggregateError [ECONNREFUSED]: 
+2025-09-30T05:56:23:     at internalConnectMultiple (node:net:1134:18)
+2025-09-30T05:56:23:     at afterConnectMultiple (node:net:1715:7)
+2025-09-30T05:56:23:     at TCPConnectWrap.callbackTrampoline (node:internal/async_hooks:130:17) {
+2025-09-30T05:56:23:   code: 'ECONNREFUSED',
+2025-09-30T05:56:23:   [errors]: [
+2025-09-30T05:56:23:     Error: connect ECONNREFUSED ::1:5578
+2025-09-30T05:56:23:         at createConnectionError (node:net:1678:14)
+2025-09-30T05:56:23:         at afterConnectMultiple (node:net:1708:16)
+2025-09-30T05:56:23:         at TCPConnectWrap.callbackTrampoline (node:internal/async_hooks:130:17) {
+2025-09-30T05:56:23:       errno: -111,
+2025-09-30T05:56:23:       code: 'ECONNREFUSED',
+2025-09-30T05:56:23:       syscall: 'connect',
+2025-09-30T05:56:23:       address: '::1',
+2025-09-30T05:56:23:       port: 5578
+2025-09-30T05:56:23:     },
+2025-09-30T05:56:23:     Error: connect ECONNREFUSED 127.0.0.1:5578
+2025-09-30T05:56:23:         at createConnectionError (node:net:1678:14)
+2025-09-30T05:56:23:         at afterConnectMultiple (node:net:1708:16)
+2025-09-30T05:56:23:         at TCPConnectWrap.callbackTrampoline (node:internal/async_hooks:130:17) {
+2025-09-30T05:56:23:       errno: -111,
+2025-09-30T05:56:23:       code: 'ECONNREFUSED',
+2025-09-30T05:56:23:       syscall: 'connect',
+2025-09-30T05:56:23:       address: '127.0.0.1',
+2025-09-30T05:56:23:       port: 5578
+2025-09-30T05:56:23:     }
+2025-09-30T05:56:23:   ]
+2025-09-30T05:56:23: }
+2025-09-30T05:56:23: AggregateError [ECONNREFUSED]: 
+2025-09-30T05:56:23:     at internalConnectMultiple (node:net:1134:18)
+2025-09-30T05:56:23:     at afterConnectMultiple (node:net:1715:7)
+2025-09-30T05:56:23:     at TCPConnectWrap.callbackTrampoline (node:internal/async_hooks:130:17) {
+2025-09-30T05:56:23:   code: 'ECONNREFUSED',
+2025-09-30T05:56:23:   [errors]: [
+2025-09-30T05:56:23:     Error: connect ECONNREFUSED ::1:5578
+2025-09-30T05:56:23:         at createConnectionError (node:net:1678:14)
+2025-09-30T05:56:23:         at afterConnectMultiple (node:net:1708:16)
+2025-09-30T05:56:23:         at TCPConnectWrap.callbackTrampoline (node:internal/async_hooks:130:17) {
+2025-09-30T05:56:23:       errno: -111,
+2025-09-30T05:56:23:       code: 'ECONNREFUSED',
+2025-09-30T05:56:23:       syscall: 'connect',
+2025-09-30T05:56:23:       address: '::1',
+2025-09-30T05:56:23:       port: 5578
+2025-09-30T05:56:23:     },
+2025-09-30T05:56:23:     Error: connect ECONNREFUSED 127.0.0.1:5578
+2025-09-30T05:56:23:         at createConnectionError (node:net:1678:14)
+2025-09-30T05:56:23:         at afterConnectMultiple (node:net:1708:16)
+2025-09-30T05:56:23:         at TCPConnectWrap.callbackTrampoline (node:internal/async_hooks:130:17) {
+2025-09-30T05:56:23:       errno: -111,
+2025-09-30T05:56:23:       code: 'ECONNREFUSED',
+2025-09-30T05:56:23:       syscall: 'connect',
+2025-09-30T05:56:23:       address: '127.0.0.1',
+2025-09-30T05:56:23:       port: 5578
+2025-09-30T05:56:23:     }
+2025-09-30T05:56:23:   ]
+2025-09-30T05:56:23: }
+2025-09-30T05:56:26: Failed to proxy http://localhost:5578/api/folders AggregateError [ECONNREFUSED]: 
+2025-09-30T05:56:26:     at internalConnectMultiple (node:net:1134:18)
+2025-09-30T05:56:26:     at afterConnectMultiple (node:net:1715:7)
+2025-09-30T05:56:26:     at TCPConnectWrap.callbackTrampoline (node:internal/async_hooks:130:17) {
+2025-09-30T05:56:26:   code: 'ECONNREFUSED',
+2025-09-30T05:56:26:   [errors]: [
+2025-09-30T05:56:26:     Error: connect ECONNREFUSED ::1:5578
+2025-09-30T05:56:26:         at createConnectionError (node:net:1678:14)
+2025-09-30T05:56:26:         at afterConnectMultiple (node:net:1708:16)
+2025-09-30T05:56:26:         at TCPConnectWrap.callbackTrampoline (node:internal/async_hooks:130:17) {
+2025-09-30T05:56:26:       errno: -111,
+2025-09-30T05:56:26:       code: 'ECONNREFUSED',
+2025-09-30T05:56:26:       syscall: 'connect',
+2025-09-30T05:56:26:       address: '::1',
+2025-09-30T05:56:26:       port: 5578
+2025-09-30T05:56:26:     },
+2025-09-30T05:56:26:     Error: connect ECONNREFUSED 127.0.0.1:5578
+2025-09-30T05:56:26:         at createConnectionError (node:net:1678:14)
+2025-09-30T05:56:26:         at afterConnectMultiple (node:net:1708:16)
+2025-09-30T05:56:26:         at TCPConnectWrap.callbackTrampoline (node:internal/async_hooks:130:17) {
+2025-09-30T05:56:26:       errno: -111,
+2025-09-30T05:56:26:       code: 'ECONNREFUSED',
+2025-09-30T05:56:26:       syscall: 'connect',
+2025-09-30T05:56:26:       address: '127.0.0.1',
+2025-09-30T05:56:26:       port: 5578
+2025-09-30T05:56:26:     }
+2025-09-30T05:56:26:   ]
+2025-09-30T05:56:26: }
+2025-09-30T05:56:26: AggregateError [ECONNREFUSED]: 
+2025-09-30T05:56:26:     at internalConnectMultiple (node:net:1134:18)
+2025-09-30T05:56:26:     at afterConnectMultiple (node:net:1715:7)
+2025-09-30T05:56:26:     at TCPConnectWrap.callbackTrampoline (node:internal/async_hooks:130:17) {
+2025-09-30T05:56:26:   code: 'ECONNREFUSED',
+2025-09-30T05:56:26:   [errors]: [
+2025-09-30T05:56:26:     Error: connect ECONNREFUSED ::1:5578
+2025-09-30T05:56:26:         at createConnectionError (node:net:1678:14)
+2025-09-30T05:56:26:         at afterConnectMultiple (node:net:1708:16)
+2025-09-30T05:56:26:         at TCPConnectWrap.callbackTrampoline (node:internal/async_hooks:130:17) {
+2025-09-30T05:56:26:       errno: -111,
+2025-09-30T05:56:26:       code: 'ECONNREFUSED',
+2025-09-30T05:56:26:       syscall: 'connect',
+2025-09-30T05:56:26:       address: '::1',
+2025-09-30T05:56:26:       port: 5578
+2025-09-30T05:56:26:     },
+2025-09-30T05:56:26:     Error: connect ECONNREFUSED 127.0.0.1:5578
+2025-09-30T05:56:26:         at createConnectionError (node:net:1678:14)
+2025-09-30T05:56:26:         at afterConnectMultiple (node:net:1708:16)
+2025-09-30T05:56:26:         at TCPConnectWrap.callbackTrampoline (node:internal/async_hooks:130:17) {
+2025-09-30T05:56:26:       errno: -111,
+2025-09-30T05:56:26:       code: 'ECONNREFUSED',
+2025-09-30T05:56:26:       syscall: 'connect',
+2025-09-30T05:56:26:       address: '127.0.0.1',
+2025-09-30T05:56:26:       port: 5578
+2025-09-30T05:56:26:     }
+2025-09-30T05:56:26:   ]
+2025-09-30T05:56:26: }
+2025-09-30T05:56:26: Failed to proxy http://localhost:5578/api/sows AggregateError [ECONNREFUSED]: 
+2025-09-30T05:56:26:     at internalConnectMultiple (node:net:1134:18)
+2025-09-30T05:56:26:     at afterConnectMultiple (node:net:1715:7)
+2025-09-30T05:56:26:     at TCPConnectWrap.callbackTrampoline (node:internal/async_hooks:130:17) {
+2025-09-30T05:56:26:   code: 'ECONNREFUSED',
+2025-09-30T05:56:26:   [errors]: [
+2025-09-30T05:56:26:     Error: connect ECONNREFUSED ::1:5578
+2025-09-30T05:56:26:         at createConnectionError (node:net:1678:14)
+2025-09-30T05:56:26:         at afterConnectMultiple (node:net:1708:16)
+2025-09-30T05:56:26:         at TCPConnectWrap.callbackTrampoline (node:internal/async_hooks:130:17) {
+2025-09-30T05:56:26:       errno: -111,
+2025-09-30T05:56:26:       code: 'ECONNREFUSED',
+2025-09-30T05:56:26:       syscall: 'connect',
+2025-09-30T05:56:26:       address: '::1',
+2025-09-30T05:56:26:       port: 5578
+2025-09-30T05:56:26:     },
+2025-09-30T05:56:26:     Error: connect ECONNREFUSED 127.0.0.1:5578
+2025-09-30T05:56:26:         at createConnectionError (node:net:1678:14)
+2025-09-30T05:56:26:         at afterConnectMultiple (node:net:1708:16)
+2025-09-30T05:56:26:         at TCPConnectWrap.callbackTrampoline (node:internal/async_hooks:130:17) {
+2025-09-30T05:56:26:       errno: -111,
+2025-09-30T05:56:26:       code: 'ECONNREFUSED',
+2025-09-30T05:56:26:       syscall: 'connect',
+2025-09-30T05:56:26:       address: '127.0.0.1',
+2025-09-30T05:56:26:       port: 5578
+2025-09-30T05:56:26:     }
+2025-09-30T05:56:26:   ]
+2025-09-30T05:56:26: }
+2025-09-30T05:56:26: AggregateError [ECONNREFUSED]: 
+2025-09-30T05:56:26:     at internalConnectMultiple (node:net:1134:18)
+2025-09-30T05:56:26:     at afterConnectMultiple (node:net:1715:7)
+2025-09-30T05:56:26:     at TCPConnectWrap.callbackTrampoline (node:internal/async_hooks:130:17) {
+2025-09-30T05:56:26:   code: 'ECONNREFUSED',
+2025-09-30T05:56:26:   [errors]: [
+2025-09-30T05:56:26:     Error: connect ECONNREFUSED ::1:5578
+2025-09-30T05:56:26:         at createConnectionError (node:net:1678:14)
+2025-09-30T05:56:26:         at afterConnectMultiple (node:net:1708:16)
+2025-09-30T05:56:26:         at TCPConnectWrap.callbackTrampoline (node:internal/async_hooks:130:17) {
+2025-09-30T05:56:26:       errno: -111,
+2025-09-30T05:56:26:       code: 'ECONNREFUSED',
+2025-09-30T05:56:26:       syscall: 'connect',
+2025-09-30T05:56:26:       address: '::1',
+2025-09-30T05:56:26:       port: 5578
+2025-09-30T05:56:26:     },
+2025-09-30T05:56:26:     Error: connect ECONNREFUSED 127.0.0.1:5578
+2025-09-30T05:56:26:         at createConnectionError (node:net:1678:14)
+2025-09-30T05:56:26:         at afterConnectMultiple (node:net:1708:16)
+2025-09-30T05:56:26:         at TCPConnectWrap.callbackTrampoline (node:internal/async_hooks:130:17) {
+2025-09-30T05:56:26:       errno: -111,
+2025-09-30T05:56:26:       code: 'ECONNREFUSED',
+2025-09-30T05:56:26:       syscall: 'connect',
+2025-09-30T05:56:26:       address: '127.0.0.1',
+2025-09-30T05:56:26:       port: 5578
+2025-09-30T05:56:26:     }
+2025-09-30T05:56:26:   ]
+2025-09-30T05:56:26: }
+2025-09-30T05:56:26:  ⨯ The requested resource isn't a valid image for /header-logo.png received null
+2025-09-30T05:56:49: Failed to proxy http://localhost:5578/api/sows AggregateError [ECONNREFUSED]: 
+2025-09-30T05:56:49:     at internalConnectMultiple (node:net:1134:18)
+2025-09-30T05:56:49:     at afterConnectMultiple (node:net:1715:7)
+2025-09-30T05:56:49:     at TCPConnectWrap.callbackTrampoline (node:internal/async_hooks:130:17) {
+2025-09-30T05:56:49:   code: 'ECONNREFUSED',
+2025-09-30T05:56:49:   [errors]: [
+2025-09-30T05:56:49:     Error: connect ECONNREFUSED ::1:5578
+2025-09-30T05:56:49:         at createConnectionError (node:net:1678:14)
+2025-09-30T05:56:49:         at afterConnectMultiple (node:net:1708:16)
+2025-09-30T05:56:49:         at TCPConnectWrap.callbackTrampoline (node:internal/async_hooks:130:17) {
+2025-09-30T05:56:49:       errno: -111,
+2025-09-30T05:56:49:       code: 'ECONNREFUSED',
+2025-09-30T05:56:49:       syscall: 'connect',
+2025-09-30T05:56:49:       address: '::1',
+2025-09-30T05:56:49:       port: 5578
+2025-09-30T05:56:49:     },
+2025-09-30T05:56:49:     Error: connect ECONNREFUSED 127.0.0.1:5578
+2025-09-30T05:56:49:         at createConnectionError (node:net:1678:14)
+2025-09-30T05:56:49:         at afterConnectMultiple (node:net:1708:16)
+2025-09-30T05:56:49:         at TCPConnectWrap.callbackTrampoline (node:internal/async_hooks:130:17) {
+2025-09-30T05:56:49:       errno: -111,
+2025-09-30T05:56:49:       code: 'ECONNREFUSED',
+2025-09-30T05:56:49:       syscall: 'connect',
+2025-09-30T05:56:49:       address: '127.0.0.1',
+2025-09-30T05:56:49:       port: 5578
+2025-09-30T05:56:49:     }
+2025-09-30T05:56:49:   ]
+2025-09-30T05:56:49: }
+2025-09-30T05:56:49: AggregateError [ECONNREFUSED]: 
+2025-09-30T05:56:49:     at internalConnectMultiple (node:net:1134:18)
+2025-09-30T05:56:49:     at afterConnectMultiple (node:net:1715:7)
+2025-09-30T05:56:49:     at TCPConnectWrap.callbackTrampoline (node:internal/async_hooks:130:17) {
+2025-09-30T05:56:49:   code: 'ECONNREFUSED',
+2025-09-30T05:56:49:   [errors]: [
+2025-09-30T05:56:49:     Error: connect ECONNREFUSED ::1:5578
+2025-09-30T05:56:49:         at createConnectionError (node:net:1678:14)
+2025-09-30T05:56:49:         at afterConnectMultiple (node:net:1708:16)
+2025-09-30T05:56:49:         at TCPConnectWrap.callbackTrampoline (node:internal/async_hooks:130:17) {
+2025-09-30T05:56:49:       errno: -111,
+2025-09-30T05:56:49:       code: 'ECONNREFUSED',
+2025-09-30T05:56:49:       syscall: 'connect',
+2025-09-30T05:56:49:       address: '::1',
+2025-09-30T05:56:49:       port: 5578
+2025-09-30T05:56:49:     },
+2025-09-30T05:56:49:     Error: connect ECONNREFUSED 127.0.0.1:5578
+2025-09-30T05:56:49:         at createConnectionError (node:net:1678:14)
+2025-09-30T05:56:49:         at afterConnectMultiple (node:net:1708:16)
+2025-09-30T05:56:49:         at TCPConnectWrap.callbackTrampoline (node:internal/async_hooks:130:17) {
+2025-09-30T05:56:49:       errno: -111,
+2025-09-30T05:56:49:       code: 'ECONNREFUSED',
+2025-09-30T05:56:49:       syscall: 'connect',
+2025-09-30T05:56:49:       address: '127.0.0.1',
+2025-09-30T05:56:49:       port: 5578
+2025-09-30T05:56:49:     }
+2025-09-30T05:56:49:   ]
+2025-09-30T05:56:49: }
+2025-09-30T05:56:49: Failed to proxy http://localhost:5578/api/sows AggregateError [ECONNREFUSED]: 
+2025-09-30T05:56:49:     at internalConnectMultiple (node:net:1134:18)
+2025-09-30T05:56:49:     at afterConnectMultiple (node:net:1715:7)
+2025-09-30T05:56:49:     at TCPConnectWrap.callbackTrampoline (node:internal/async_hooks:130:17) {
+2025-09-30T05:56:49:   code: 'ECONNREFUSED',
+2025-09-30T05:56:49:   [errors]: [
+2025-09-30T05:56:49:     Error: connect ECONNREFUSED ::1:5578
+2025-09-30T05:56:49:         at createConnectionError (node:net:1678:14)
+2025-09-30T05:56:49:         at afterConnectMultiple (node:net:1708:16)
+2025-09-30T05:56:49:         at TCPConnectWrap.callbackTrampoline (node:internal/async_hooks:130:17) {
+2025-09-30T05:56:49:       errno: -111,
+2025-09-30T05:56:49:       code: 'ECONNREFUSED',
+2025-09-30T05:56:49:       syscall: 'connect',
+2025-09-30T05:56:49:       address: '::1',
+2025-09-30T05:56:49:       port: 5578
+2025-09-30T05:56:49:     },
+2025-09-30T05:56:49:     Error: connect ECONNREFUSED 127.0.0.1:5578
+2025-09-30T05:56:49:         at createConnectionError (node:net:1678:14)
+2025-09-30T05:56:49:         at afterConnectMultiple (node:net:1708:16)
+2025-09-30T05:56:49:         at TCPConnectWrap.callbackTrampoline (node:internal/async_hooks:130:17) {
+2025-09-30T05:56:49:       errno: -111,
+2025-09-30T05:56:49:       code: 'ECONNREFUSED',
+2025-09-30T05:56:49:       syscall: 'connect',
+2025-09-30T05:56:49:       address: '127.0.0.1',
+2025-09-30T05:56:49:       port: 5578
+2025-09-30T05:56:49:     }
+2025-09-30T05:56:49:   ]
+2025-09-30T05:56:49: }
+2025-09-30T05:56:49: AggregateError [ECONNREFUSED]: 
+2025-09-30T05:56:49:     at internalConnectMultiple (node:net:1134:18)
+2025-09-30T05:56:49:     at afterConnectMultiple (node:net:1715:7)
+2025-09-30T05:56:49:     at TCPConnectWrap.callbackTrampoline (node:internal/async_hooks:130:17) {
+2025-09-30T05:56:49:   code: 'ECONNREFUSED',
+2025-09-30T05:56:49:   [errors]: [
+2025-09-30T05:56:49:     Error: connect ECONNREFUSED ::1:5578
+2025-09-30T05:56:49:         at createConnectionError (node:net:1678:14)
+2025-09-30T05:56:49:         at afterConnectMultiple (node:net:1708:16)
+2025-09-30T05:56:49:         at TCPConnectWrap.callbackTrampoline (node:internal/async_hooks:130:17) {
+2025-09-30T05:56:49:       errno: -111,
+2025-09-30T05:56:49:       code: 'ECONNREFUSED',
+2025-09-30T05:56:49:       syscall: 'connect',
+2025-09-30T05:56:49:       address: '::1',
+2025-09-30T05:56:49:       port: 5578
+2025-09-30T05:56:49:     },
+2025-09-30T05:56:49:     Error: connect ECONNREFUSED 127.0.0.1:5578
+2025-09-30T05:56:49:         at createConnectionError (node:net:1678:14)
+2025-09-30T05:56:49:         at afterConnectMultiple (node:net:1708:16)
+2025-09-30T05:56:49:         at TCPConnectWrap.callbackTrampoline (node:internal/async_hooks:130:17) {
+2025-09-30T05:56:49:       errno: -111,
+2025-09-30T05:56:49:       code: 'ECONNREFUSED',
+2025-09-30T05:56:49:       syscall: 'connect',
+2025-09-30T05:56:49:       address: '127.0.0.1',
+2025-09-30T05:56:49:       port: 5578
+2025-09-30T05:56:49:     }
+2025-09-30T05:56:49:   ]
+2025-09-30T05:56:49: }
+2025-09-30T05:56:50: Failed to proxy http://localhost:5578/api/folders AggregateError [ECONNREFUSED]: 
+2025-09-30T05:56:50:     at internalConnectMultiple (node:net:1134:18)
+2025-09-30T05:56:50:     at afterConnectMultiple (node:net:1715:7)
+2025-09-30T05:56:50:     at TCPConnectWrap.callbackTrampoline (node:internal/async_hooks:130:17) {
+2025-09-30T05:56:50:   code: 'ECONNREFUSED',
+2025-09-30T05:56:50:   [errors]: [
+2025-09-30T05:56:50:     Error: connect ECONNREFUSED ::1:5578
+2025-09-30T05:56:50:         at createConnectionError (node:net:1678:14)
+2025-09-30T05:56:50:         at afterConnectMultiple (node:net:1708:16)
+2025-09-30T05:56:50:         at TCPConnectWrap.callbackTrampoline (node:internal/async_hooks:130:17) {
+2025-09-30T05:56:50:       errno: -111,
+2025-09-30T05:56:50:       code: 'ECONNREFUSED',
+2025-09-30T05:56:50:       syscall: 'connect',
+2025-09-30T05:56:50:       address: '::1',
+2025-09-30T05:56:50:       port: 5578
+2025-09-30T05:56:50:     },
+2025-09-30T05:56:50:     Error: connect ECONNREFUSED 127.0.0.1:5578
+2025-09-30T05:56:50:         at createConnectionError (node:net:1678:14)
+2025-09-30T05:56:50:         at afterConnectMultiple (node:net:1708:16)
+2025-09-30T05:56:50:         at TCPConnectWrap.callbackTrampoline (node:internal/async_hooks:130:17) {
+2025-09-30T05:56:50:       errno: -111,
+2025-09-30T05:56:50:       code: 'ECONNREFUSED',
+2025-09-30T05:56:50:       syscall: 'connect',
+2025-09-30T05:56:50:       address: '127.0.0.1',
+2025-09-30T05:56:50:       port: 5578
+2025-09-30T05:56:50:     }
+2025-09-30T05:56:50:   ]
+2025-09-30T05:56:50: }
+2025-09-30T05:56:50: AggregateError [ECONNREFUSED]: 
+2025-09-30T05:56:50:     at internalConnectMultiple (node:net:1134:18)
+2025-09-30T05:56:50:     at afterConnectMultiple (node:net:1715:7)
+2025-09-30T05:56:50:     at TCPConnectWrap.callbackTrampoline (node:internal/async_hooks:130:17) {
+2025-09-30T05:56:50:   code: 'ECONNREFUSED',
+2025-09-30T05:56:50:   [errors]: [
+2025-09-30T05:56:50:     Error: connect ECONNREFUSED ::1:5578
+2025-09-30T05:56:50:         at createConnectionError (node:net:1678:14)
+2025-09-30T05:56:50:         at afterConnectMultiple (node:net:1708:16)
+2025-09-30T05:56:50:         at TCPConnectWrap.callbackTrampoline (node:internal/async_hooks:130:17) {
+2025-09-30T05:56:50:       errno: -111,
+2025-09-30T05:56:50:       code: 'ECONNREFUSED',
+2025-09-30T05:56:50:       syscall: 'connect',
+2025-09-30T05:56:50:       address: '::1',
+2025-09-30T05:56:50:       port: 5578
+2025-09-30T05:56:50:     },
+2025-09-30T05:56:50:     Error: connect ECONNREFUSED 127.0.0.1:5578
+2025-09-30T05:56:50:         at createConnectionError (node:net:1678:14)
+2025-09-30T05:56:50:         at afterConnectMultiple (node:net:1708:16)
+2025-09-30T05:56:50:         at TCPConnectWrap.callbackTrampoline (node:internal/async_hooks:130:17) {
+2025-09-30T05:56:50:       errno: -111,
+2025-09-30T05:56:50:       code: 'ECONNREFUSED',
+2025-09-30T05:56:50:       syscall: 'connect',
+2025-09-30T05:56:50:       address: '127.0.0.1',
+2025-09-30T05:56:50:       port: 5578
+2025-09-30T05:56:50:     }
+2025-09-30T05:56:50:   ]
+2025-09-30T05:56:50: }
+2025-09-30T05:56:50: Failed to proxy http://localhost:5578/api/sows AggregateError [ECONNREFUSED]: 
+2025-09-30T05:56:50:     at internalConnectMultiple (node:net:1134:18)
+2025-09-30T05:56:50:     at afterConnectMultiple (node:net:1715:7)
+2025-09-30T05:56:50:     at TCPConnectWrap.callbackTrampoline (node:internal/async_hooks:130:17) {
+2025-09-30T05:56:50:   code: 'ECONNREFUSED',
+2025-09-30T05:56:50:   [errors]: [
+2025-09-30T05:56:50:     Error: connect ECONNREFUSED ::1:5578
+2025-09-30T05:56:50:         at createConnectionError (node:net:1678:14)
+2025-09-30T05:56:50:         at afterConnectMultiple (node:net:1708:16)
+2025-09-30T05:56:50:         at TCPConnectWrap.callbackTrampoline (node:internal/async_hooks:130:17) {
+2025-09-30T05:56:50:       errno: -111,
+2025-09-30T05:56:50:       code: 'ECONNREFUSED',
+2025-09-30T05:56:50:       syscall: 'connect',
+2025-09-30T05:56:50:       address: '::1',
+2025-09-30T05:56:50:       port: 5578
+2025-09-30T05:56:50:     },
+2025-09-30T05:56:50:     Error: connect ECONNREFUSED 127.0.0.1:5578
+2025-09-30T05:56:50:         at createConnectionError (node:net:1678:14)
+2025-09-30T05:56:50:         at afterConnectMultiple (node:net:1708:16)
+2025-09-30T05:56:50:         at TCPConnectWrap.callbackTrampoline (node:internal/async_hooks:130:17) {
+2025-09-30T05:56:50:       errno: -111,
+2025-09-30T05:56:50:       code: 'ECONNREFUSED',
+2025-09-30T05:56:50:       syscall: 'connect',
+2025-09-30T05:56:50:       address: '127.0.0.1',
+2025-09-30T05:56:50:       port: 5578
+2025-09-30T05:56:50:     }
+2025-09-30T05:56:50:   ]
+2025-09-30T05:56:50: }
+2025-09-30T05:56:50: AggregateError [ECONNREFUSED]: 
+2025-09-30T05:56:50:     at internalConnectMultiple (node:net:1134:18)
+2025-09-30T05:56:50:     at afterConnectMultiple (node:net:1715:7)
+2025-09-30T05:56:50:     at TCPConnectWrap.callbackTrampoline (node:internal/async_hooks:130:17) {
+2025-09-30T05:56:50:   code: 'ECONNREFUSED',
+2025-09-30T05:56:50:   [errors]: [
+2025-09-30T05:56:50:     Error: connect ECONNREFUSED ::1:5578
+2025-09-30T05:56:50:         at createConnectionError (node:net:1678:14)
+2025-09-30T05:56:50:         at afterConnectMultiple (node:net:1708:16)
+2025-09-30T05:56:50:         at TCPConnectWrap.callbackTrampoline (node:internal/async_hooks:130:17) {
+2025-09-30T05:56:50:       errno: -111,
+2025-09-30T05:56:50:       code: 'ECONNREFUSED',
+2025-09-30T05:56:50:       syscall: 'connect',
+2025-09-30T05:56:50:       address: '::1',
+2025-09-30T05:56:50:       port: 5578
+2025-09-30T05:56:50:     },
+2025-09-30T05:56:50:     Error: connect ECONNREFUSED 127.0.0.1:5578
+2025-09-30T05:56:50:         at createConnectionError (node:net:1678:14)
+2025-09-30T05:56:50:         at afterConnectMultiple (node:net:1708:16)
+2025-09-30T05:56:50:         at TCPConnectWrap.callbackTrampoline (node:internal/async_hooks:130:17) {
+2025-09-30T05:56:50:       errno: -111,
+2025-09-30T05:56:50:       code: 'ECONNREFUSED',
+2025-09-30T05:56:50:       syscall: 'connect',
+2025-09-30T05:56:50:       address: '127.0.0.1',
+2025-09-30T05:56:50:       port: 5578
+2025-09-30T05:56:50:     }
+2025-09-30T05:56:50:   ]
+2025-09-30T05:56:50: }
+2025-09-30T05:56:50:  ⨯ The requested resource isn't a valid image for /header-logo.png received null
+2025-09-30T05:56:53: Failed to proxy http://localhost:5578/api/folders AggregateError [ECONNREFUSED]: 
+2025-09-30T05:56:53:     at internalConnectMultiple (node:net:1134:18)
+2025-09-30T05:56:53:     at afterConnectMultiple (node:net:1715:7)
+2025-09-30T05:56:53:     at TCPConnectWrap.callbackTrampoline (node:internal/async_hooks:130:17) {
+2025-09-30T05:56:53:   code: 'ECONNREFUSED',
+2025-09-30T05:56:53:   [errors]: [
+2025-09-30T05:56:53:     Error: connect ECONNREFUSED ::1:5578
+2025-09-30T05:56:53:         at createConnectionError (node:net:1678:14)
+2025-09-30T05:56:53:         at afterConnectMultiple (node:net:1708:16)
+2025-09-30T05:56:53:         at TCPConnectWrap.callbackTrampoline (node:internal/async_hooks:130:17) {
+2025-09-30T05:56:53:       errno: -111,
+2025-09-30T05:56:53:       code: 'ECONNREFUSED',
+2025-09-30T05:56:53:       syscall: 'connect',
+2025-09-30T05:56:53:       address: '::1',
+2025-09-30T05:56:53:       port: 5578
+2025-09-30T05:56:53:     },
+2025-09-30T05:56:53:     Error: connect ECONNREFUSED 127.0.0.1:5578
+2025-09-30T05:56:53:         at createConnectionError (node:net:1678:14)
+2025-09-30T05:56:53:         at afterConnectMultiple (node:net:1708:16)
+2025-09-30T05:56:53:         at TCPConnectWrap.callbackTrampoline (node:internal/async_hooks:130:17) {
+2025-09-30T05:56:53:       errno: -111,
+2025-09-30T05:56:53:       code: 'ECONNREFUSED',
+2025-09-30T05:56:53:       syscall: 'connect',
+2025-09-30T05:56:53:       address: '127.0.0.1',
+2025-09-30T05:56:53:       port: 5578
+2025-09-30T05:56:53:     }
+2025-09-30T05:56:53:   ]
+2025-09-30T05:56:53: }
+2025-09-30T05:56:53: AggregateError [ECONNREFUSED]: 
+2025-09-30T05:56:53:     at internalConnectMultiple (node:net:1134:18)
+2025-09-30T05:56:53:     at afterConnectMultiple (node:net:1715:7)
+2025-09-30T05:56:53:     at TCPConnectWrap.callbackTrampoline (node:internal/async_hooks:130:17) {
+2025-09-30T05:56:53:   code: 'ECONNREFUSED',
+2025-09-30T05:56:53:   [errors]: [
+2025-09-30T05:56:53:     Error: connect ECONNREFUSED ::1:5578
+2025-09-30T05:56:53:         at createConnectionError (node:net:1678:14)
+2025-09-30T05:56:53:         at afterConnectMultiple (node:net:1708:16)
+2025-09-30T05:56:53:         at TCPConnectWrap.callbackTrampoline (node:internal/async_hooks:130:17) {
+2025-09-30T05:56:53:       errno: -111,
+2025-09-30T05:56:53:       code: 'ECONNREFUSED',
+2025-09-30T05:56:53:       syscall: 'connect',
+2025-09-30T05:56:53:       address: '::1',
+2025-09-30T05:56:53:       port: 5578
+2025-09-30T05:56:53:     },
+2025-09-30T05:56:53:     Error: connect ECONNREFUSED 127.0.0.1:5578
+2025-09-30T05:56:53:         at createConnectionError (node:net:1678:14)
+2025-09-30T05:56:53:         at afterConnectMultiple (node:net:1708:16)
+2025-09-30T05:56:53:         at TCPConnectWrap.callbackTrampoline (node:internal/async_hooks:130:17) {
+2025-09-30T05:56:53:       errno: -111,
+2025-09-30T05:56:53:       code: 'ECONNREFUSED',
+2025-09-30T05:56:53:       syscall: 'connect',
+2025-09-30T05:56:53:       address: '127.0.0.1',
+2025-09-30T05:56:53:       port: 5578
+2025-09-30T05:56:53:     }
+2025-09-30T05:56:53:   ]
+2025-09-30T05:56:53: }
+2025-09-30T05:56:53: Failed to proxy http://localhost:5578/api/folders AggregateError [ECONNREFUSED]: 
+2025-09-30T05:56:53:     at internalConnectMultiple (node:net:1134:18)
+2025-09-30T05:56:53:     at afterConnectMultiple (node:net:1715:7)
+2025-09-30T05:56:53:     at TCPConnectWrap.callbackTrampoline (node:internal/async_hooks:130:17) {
+2025-09-30T05:56:53:   code: 'ECONNREFUSED',
+2025-09-30T05:56:53:   [errors]: [
+2025-09-30T05:56:53:     Error: connect ECONNREFUSED ::1:5578
+2025-09-30T05:56:53:         at createConnectionError (node:net:1678:14)
+2025-09-30T05:56:53:         at afterConnectMultiple (node:net:1708:16)
+2025-09-30T05:56:53:         at TCPConnectWrap.callbackTrampoline (node:internal/async_hooks:130:17) {
+2025-09-30T05:56:53:       errno: -111,
+2025-09-30T05:56:53:       code: 'ECONNREFUSED',
+2025-09-30T05:56:53:       syscall: 'connect',
+2025-09-30T05:56:53:       address: '::1',
+2025-09-30T05:56:53:       port: 5578
+2025-09-30T05:56:53:     },
+2025-09-30T05:56:53:     Error: connect ECONNREFUSED 127.0.0.1:5578
+2025-09-30T05:56:53:         at createConnectionError (node:net:1678:14)
+2025-09-30T05:56:53:         at afterConnectMultiple (node:net:1708:16)
+2025-09-30T05:56:53:         at TCPConnectWrap.callbackTrampoline (node:internal/async_hooks:130:17) {
+2025-09-30T05:56:53:       errno: -111,
+2025-09-30T05:56:53:       code: 'ECONNREFUSED',
+2025-09-30T05:56:53:       syscall: 'connect',
+2025-09-30T05:56:53:       address: '127.0.0.1',
+2025-09-30T05:56:53:       port: 5578
+2025-09-30T05:56:53:     }
+2025-09-30T05:56:53:   ]
+2025-09-30T05:56:53: }
+2025-09-30T05:56:53: AggregateError [ECONNREFUSED]: 
+2025-09-30T05:56:53:     at internalConnectMultiple (node:net:1134:18)
+2025-09-30T05:56:53:     at afterConnectMultiple (node:net:1715:7)
+2025-09-30T05:56:53:     at TCPConnectWrap.callbackTrampoline (node:internal/async_hooks:130:17) {
+2025-09-30T05:56:53:   code: 'ECONNREFUSED',
+2025-09-30T05:56:53:   [errors]: [
+2025-09-30T05:56:53:     Error: connect ECONNREFUSED ::1:5578
+2025-09-30T05:56:53:         at createConnectionError (node:net:1678:14)
+2025-09-30T05:56:53:         at afterConnectMultiple (node:net:1708:16)
+2025-09-30T05:56:53:         at TCPConnectWrap.callbackTrampoline (node:internal/async_hooks:130:17) {
+2025-09-30T05:56:53:       errno: -111,
+2025-09-30T05:56:53:       code: 'ECONNREFUSED',
+2025-09-30T05:56:53:       syscall: 'connect',
+2025-09-30T05:56:53:       address: '::1',
+2025-09-30T05:56:53:       port: 5578
+2025-09-30T05:56:53:     },
+2025-09-30T05:56:53:     Error: connect ECONNREFUSED 127.0.0.1:5578
+2025-09-30T05:56:53:         at createConnectionError (node:net:1678:14)
+2025-09-30T05:56:53:         at afterConnectMultiple (node:net:1708:16)
+2025-09-30T05:56:53:         at TCPConnectWrap.callbackTrampoline (node:internal/async_hooks:130:17) {
+2025-09-30T05:56:53:       errno: -111,
+2025-09-30T05:56:53:       code: 'ECONNREFUSED',
+2025-09-30T05:56:53:       syscall: 'connect',
+2025-09-30T05:56:53:       address: '127.0.0.1',
+2025-09-30T05:56:53:       port: 5578
+2025-09-30T05:56:53:     }
+2025-09-30T05:56:53:   ]
+2025-09-30T05:56:53: }
+2025-09-30T05:56:53: Failed to proxy http://localhost:5578/api/folders AggregateError [ECONNREFUSED]: 
+2025-09-30T05:56:53:     at internalConnectMultiple (node:net:1134:18)
+2025-09-30T05:56:53:     at afterConnectMultiple (node:net:1715:7)
+2025-09-30T05:56:53:     at TCPConnectWrap.callbackTrampoline (node:internal/async_hooks:130:17) {
+2025-09-30T05:56:53:   code: 'ECONNREFUSED',
+2025-09-30T05:56:53:   [errors]: [
+2025-09-30T05:56:53:     Error: connect ECONNREFUSED ::1:5578
+2025-09-30T05:56:53:         at createConnectionError (node:net:1678:14)
+2025-09-30T05:56:53:         at afterConnectMultiple (node:net:1708:16)
+2025-09-30T05:56:53:         at TCPConnectWrap.callbackTrampoline (node:internal/async_hooks:130:17) {
+2025-09-30T05:56:53:       errno: -111,
+2025-09-30T05:56:53:       code: 'ECONNREFUSED',
+2025-09-30T05:56:53:       syscall: 'connect',
+2025-09-30T05:56:53:       address: '::1',
+2025-09-30T05:56:53:       port: 5578
+2025-09-30T05:56:53:     },
+2025-09-30T05:56:53:     Error: connect ECONNREFUSED 127.0.0.1:5578
+2025-09-30T05:56:53:         at createConnectionError (node:net:1678:14)
+2025-09-30T05:56:53:         at afterConnectMultiple (node:net:1708:16)
+2025-09-30T05:56:53:         at TCPConnectWrap.callbackTrampoline (node:internal/async_hooks:130:17) {
+2025-09-30T05:56:53:       errno: -111,
+2025-09-30T05:56:53:       code: 'ECONNREFUSED',
+2025-09-30T05:56:53:       syscall: 'connect',
+2025-09-30T05:56:53:       address: '127.0.0.1',
+2025-09-30T05:56:53:       port: 5578
+2025-09-30T05:56:53:     }
+2025-09-30T05:56:53:   ]
+2025-09-30T05:56:53: }
+2025-09-30T05:56:53: AggregateError [ECONNREFUSED]: 
+2025-09-30T05:56:53:     at internalConnectMultiple (node:net:1134:18)
+2025-09-30T05:56:53:     at afterConnectMultiple (node:net:1715:7)
+2025-09-30T05:56:53:     at TCPConnectWrap.callbackTrampoline (node:internal/async_hooks:130:17) {
+2025-09-30T05:56:53:   code: 'ECONNREFUSED',
+2025-09-30T05:56:53:   [errors]: [
+2025-09-30T05:56:53:     Error: connect ECONNREFUSED ::1:5578
+2025-09-30T05:56:53:         at createConnectionError (node:net:1678:14)
+2025-09-30T05:56:53:         at afterConnectMultiple (node:net:1708:16)
+2025-09-30T05:56:53:         at TCPConnectWrap.callbackTrampoline (node:internal/async_hooks:130:17) {
+2025-09-30T05:56:53:       errno: -111,
+2025-09-30T05:56:53:       code: 'ECONNREFUSED',
+2025-09-30T05:56:53:       syscall: 'connect',
+2025-09-30T05:56:53:       address: '::1',
+2025-09-30T05:56:53:       port: 5578
+2025-09-30T05:56:53:     },
+2025-09-30T05:56:53:     Error: connect ECONNREFUSED 127.0.0.1:5578
+2025-09-30T05:56:53:         at createConnectionError (node:net:1678:14)
+2025-09-30T05:56:53:         at afterConnectMultiple (node:net:1708:16)
+2025-09-30T05:56:53:         at TCPConnectWrap.callbackTrampoline (node:internal/async_hooks:130:17) {
+2025-09-30T05:56:53:       errno: -111,
+2025-09-30T05:56:53:       code: 'ECONNREFUSED',
+2025-09-30T05:56:53:       syscall: 'connect',
+2025-09-30T05:56:53:       address: '127.0.0.1',
+2025-09-30T05:56:53:       port: 5578
+2025-09-30T05:56:53:     }
+2025-09-30T05:56:53:   ]
+2025-09-30T05:56:53: }
+2025-09-30T05:56:54: Failed to proxy http://localhost:5578/api/folders AggregateError [ECONNREFUSED]: 
+2025-09-30T05:56:54:     at internalConnectMultiple (node:net:1134:18)
+2025-09-30T05:56:54:     at afterConnectMultiple (node:net:1715:7)
+2025-09-30T05:56:54:     at TCPConnectWrap.callbackTrampoline (node:internal/async_hooks:130:17) {
+2025-09-30T05:56:54:   code: 'ECONNREFUSED',
+2025-09-30T05:56:54:   [errors]: [
+2025-09-30T05:56:54:     Error: connect ECONNREFUSED ::1:5578
+2025-09-30T05:56:54:         at createConnectionError (node:net:1678:14)
+2025-09-30T05:56:54:         at afterConnectMultiple (node:net:1708:16)
+2025-09-30T05:56:54:         at TCPConnectWrap.callbackTrampoline (node:internal/async_hooks:130:17) {
+2025-09-30T05:56:54:       errno: -111,
+2025-09-30T05:56:54:       code: 'ECONNREFUSED',
+2025-09-30T05:56:54:       syscall: 'connect',
+2025-09-30T05:56:54:       address: '::1',
+2025-09-30T05:56:54:       port: 5578
+2025-09-30T05:56:54:     },
+2025-09-30T05:56:54:     Error: connect ECONNREFUSED 127.0.0.1:5578
+2025-09-30T05:56:54:         at createConnectionError (node:net:1678:14)
+2025-09-30T05:56:54:         at afterConnectMultiple (node:net:1708:16)
+2025-09-30T05:56:54:         at TCPConnectWrap.callbackTrampoline (node:internal/async_hooks:130:17) {
+2025-09-30T05:56:54:       errno: -111,
+2025-09-30T05:56:54:       code: 'ECONNREFUSED',
+2025-09-30T05:56:54:       syscall: 'connect',
+2025-09-30T05:56:54:       address: '127.0.0.1',
+2025-09-30T05:56:54:       port: 5578
+2025-09-30T05:56:54:     }
+2025-09-30T05:56:54:   ]
+2025-09-30T05:56:54: }
+2025-09-30T05:56:54: AggregateError [ECONNREFUSED]: 
+2025-09-30T05:56:54:     at internalConnectMultiple (node:net:1134:18)
+2025-09-30T05:56:54:     at afterConnectMultiple (node:net:1715:7)
+2025-09-30T05:56:54:     at TCPConnectWrap.callbackTrampoline (node:internal/async_hooks:130:17) {
+2025-09-30T05:56:54:   code: 'ECONNREFUSED',
+2025-09-30T05:56:54:   [errors]: [
+2025-09-30T05:56:54:     Error: connect ECONNREFUSED ::1:5578
+2025-09-30T05:56:54:         at createConnectionError (node:net:1678:14)
+2025-09-30T05:56:54:         at afterConnectMultiple (node:net:1708:16)
+2025-09-30T05:56:54:         at TCPConnectWrap.callbackTrampoline (node:internal/async_hooks:130:17) {
+2025-09-30T05:56:54:       errno: -111,
+2025-09-30T05:56:54:       code: 'ECONNREFUSED',
+2025-09-30T05:56:54:       syscall: 'connect',
+2025-09-30T05:56:54:       address: '::1',
+2025-09-30T05:56:54:       port: 5578
+2025-09-30T05:56:54:     },
+2025-09-30T05:56:54:     Error: connect ECONNREFUSED 127.0.0.1:5578
+2025-09-30T05:56:54:         at createConnectionError (node:net:1678:14)
+2025-09-30T05:56:54:         at afterConnectMultiple (node:net:1708:16)
+2025-09-30T05:56:54:         at TCPConnectWrap.callbackTrampoline (node:internal/async_hooks:130:17) {
+2025-09-30T05:56:54:       errno: -111,
+2025-09-30T05:56:54:       code: 'ECONNREFUSED',
+2025-09-30T05:56:54:       syscall: 'connect',
+2025-09-30T05:56:54:       address: '127.0.0.1',
+2025-09-30T05:56:54:       port: 5578
+2025-09-30T05:56:54:     }
+2025-09-30T05:56:54:   ]
+2025-09-30T05:56:54: }
+2025-09-30T06:00:32: Killed
+2025-09-30T06:00:32:  ELIFECYCLE  Command failed with exit code 137.
+2025-09-30T06:00:36: 
+2025-09-30T06:00:36: > @sow-workbench/web@1.0.0 start /root/thecustom/apps/web
+2025-09-30T06:00:36: > next start -p 3009
+2025-09-30T06:00:36: 
+2025-09-30T06:00:37:   ▲ Next.js 14.2.33
+2025-09-30T06:00:37:   - Local:        http://localhost:3009
+2025-09-30T06:00:37: 
+2025-09-30T06:00:37:  ✓ Starting...
+2025-09-30T06:00:37:  ✓ Ready in 295ms
+2025-09-30T06:00:50:  ELIFECYCLE  Command failed.

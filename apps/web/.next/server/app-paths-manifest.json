@@ -1,0 +1,13 @@
+{
+  "/_not-found/page": "app/_not-found/page.js",
+  "/admin/page": "app/admin/page.js",
+  "/landing/page": "app/landing/page.js",
+  "/page": "app/page.js",
+  "/my-sow/page": "app/my-sow/page.js",
+  "/presence-test/page": "app/presence-test/page.js",
+  "/settings/page": "app/settings/page.js",
+  "/settings/ai/page": "app/settings/ai/page.js",
+  "/settings/rate-card/page": "app/settings/rate-card/page.js",
+  "/sow/share/[id]/page": "app/sow/share/[id]/page.js",
+  "/workbench/page": "app/workbench/page.js"
+}

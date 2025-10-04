@@ -1,0 +1,25 @@
+{
+  "name": "@sow-workbench/analytics",
+  "version": "1.0.0",
+  "description": "Privacy-friendly analytics for SOW Workbench",
+  "main": "index.js",
+  "scripts": {
+    "dev": "tsx watch src/server.ts",
+    "build": "tsc",
+    "start": "node dist/server.js"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "date-fns": "^2.30.0",
+    "express": "^4.21.2",
+    "sqlite3": "^5.1.7",
+    "ua-parser-js": "^1.0.41"
+  },
+  "devDependencies": {
+    "@types/cors": "^2.8.13",
+    "@types/express": "^4.17.17",
+    "@types/ua-parser-js": "^0.7.36",
+    "tsx": "^4.7.0",
+    "typescript": "^5.0.0"
+  }
+}
